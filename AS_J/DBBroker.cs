@@ -151,6 +151,31 @@ namespace AS_J
             }
             return ret;
         }
+        public string vratiDelove()
+        {
+            string ret = "";
+            string upit = "SELECT * from magacin";
+            try
+            {
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.CommandText = upit;
+                cmd.Connection = conncomm;
+                if (conncomm.State == ConnectionState.Closed) conncomm.Open();
+                MySqlDataReader odr = cmd.ExecuteReader();
+                while (odr.Read())
+                {
+                    ret = ret + "," + odr.GetString(1);
+                    ret = ret + "-" + odr.GetString(2);
+                }
+                if (conncomm.State == ConnectionState.Open) conncomm.Close();
+                Program.insertInLogFile(" vracanje delova. " + upit);
+            }
+            catch (Exception exx)
+            {
+                Program.insertInLogFile(" greska pri vracanju delova. " + upit + " : " + exx.Message);
+            }
+            return ret;
+        }
         public string vratiRadnike()
         {
             string ret = "";

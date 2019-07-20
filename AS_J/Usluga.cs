@@ -17,11 +17,28 @@ namespace AS_J
         {
             InitializeComponent();
             db.napuniGrid("SELECT * from usluga", dataGridViewUsluga);
+            db.napuniGrid("SELECT * FROM usluga-artikal", dataGridViewUslugaDeo);
            /* dataGridView1.Columns[0].Width = 50;
             dataGridView1.Columns[1].Width = 50;
             dataGridView1.Columns[2].Width = 450;
             dataGridView1.Columns[3].Width = 150;*/
             ucitajUsluge();
+            ucitajDelove();
+        }
+
+        private void ucitajDelove()
+        {
+            comboBoxSifraArtikla.Items.Clear();
+            string ret = db.vratiDelove();
+            string[] vlasnici = ret.Split(',');
+            foreach (string item in vlasnici)
+            {
+                if (item.Contains("-"))
+                {
+                    comboBoxSifraArtikla.Items.Add(item);
+                }
+            }
+            comboBoxSifraArtikla.SelectedIndex = 0;
         }
         private void ucitajUsluge()
         {
@@ -114,6 +131,29 @@ namespace AS_J
                 MessageBox.Show(desc + " OK. \n" + values);
                 Program.insertInLogFile(desc);
                 db.napuniGrid("SELECT * FROM " + tabela + "", dataGridViewUsluga);
+            }
+            else
+            {
+                MessageBox.Show(desc + " Error.");
+                Program.insertInLogFile(desc + " Error.");
+            }
+            selectedID = 0;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string values = "'" + comboBoxSifraUsluge.Text + "','" + comboBoxSifraArtikla.Text + "'";
+            string upit = "INSERT INTO uslugaartikal (sifrausluge,ID_artikla) VALUES (" + values + ")";
+
+            string desc = "unos novog usluga + deo.";
+            string tabela = "uslugaartikal";
+            Program.insertInLogFile(desc);
+            bool istina = db.sacuvajIzmeniObrisiObjekat(upit);
+            if (istina)
+            {
+                MessageBox.Show(desc + " OK. \n" + values);
+                Program.insertInLogFile(desc);
+                db.napuniGrid("SELECT * FROM " + tabela + "", dataGridViewUslugaDeo);
             }
             else
             {

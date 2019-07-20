@@ -21,9 +21,11 @@ C:\Users\milosi\Documents\Visual Studio 2012\Projects\AS_J\AS_J\bin\Debug\CelikN
 C:\Users\milosi\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\Interop.eVehicleRegistrationCOM.dll
 C:\Users\milosi\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.csproj.ResolveComReference.cache
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\bin\Debug\AS_J.exe.config
+C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\bin\Debug\AS_J.exe
+C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\bin\Debug\AS_J.pdb
+C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.csprojResolveAssemblyReference.cache
+C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\Interop.eVehicleRegistrationCOM.dll
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.csproj.ResolveComReference.cache
-C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.exe
-C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.pdb
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.Dobavljac.resources
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.LogIN.resources
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.Magacin.resources
@@ -35,7 +37,6 @@ C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debu
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.Usluga.resources
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.VlasniciVozila.resources
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.Vozilo.resources
-C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.csproj.GenerateResource.Cache
-C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\bin\Debug\AS_J.exe
-C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\bin\Debug\AS_J.pdb
-C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\Interop.eVehicleRegistrationCOM.dll
+C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.csproj.GenerateResource.cache
+C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.exe
+C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.pdb
