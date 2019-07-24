@@ -17,7 +17,7 @@ namespace AS_J
         {
             InitializeComponent();
             db.napuniGrid("SELECT * from usluga", dataGridViewUsluga);
-            db.napuniGrid("SELECT * FROM usluga-artikal", dataGridViewUslugaDeo);
+            db.napuniGrid("SELECT * FROM uslugaartikal", dataGridViewUslugaDeo);
            /* dataGridView1.Columns[0].Width = 50;
             dataGridView1.Columns[1].Width = 50;
             dataGridView1.Columns[2].Width = 450;
@@ -38,7 +38,7 @@ namespace AS_J
                     comboBoxSifraArtikla.Items.Add(item);
                 }
             }
-            comboBoxSifraArtikla.SelectedIndex = 0;
+           if(comboBoxSifraArtikla.Items.Count>0) comboBoxSifraArtikla.SelectedIndex = 0;
         }
         private void ucitajUsluge()
         {
@@ -52,7 +52,7 @@ namespace AS_J
                     comboBoxSifraUsluge.Items.Add(item);
                 }
             }
-            comboBoxSifraUsluge.SelectedIndex = 0;
+            if (comboBoxSifraUsluge.Items.Count > 0) comboBoxSifraUsluge.SelectedIndex = 0;
         }
         private void linkLabel5_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {

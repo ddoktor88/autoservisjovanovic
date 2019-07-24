@@ -40,3 +40,24 @@ C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debu
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.csproj.GenerateResource.cache
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.exe
 C:\Users\Milos Ivanovic\Documents\Visual Studio 2012\Projects\AS_J\AS_J\obj\Debug\AS_J.pdb
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\bin\Debug\AS_J.exe.config
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\bin\Debug\AS_J.exe
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\bin\Debug\AS_J.pdb
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\Interop.eVehicleRegistrationCOM.dll
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.csproj.ResolveComReference.cache
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.Dobavljac.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.LogIN.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.Magacin.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.MainForm.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.Majstori.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.Nabavka.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.OPreduzecu.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.Properties.Resources.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.Usluga.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.VlasniciVozila.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.Vozilo.resources
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.csproj.GenerateResource.cache
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.csproj.CoreCompileInputs.cache
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.csproj.CopyComplete
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.exe
+C:\Users\milosi\Source\Repos\autoservisjovanovic\AS_J\obj\Debug\AS_J.pdb
